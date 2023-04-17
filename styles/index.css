@@ -1,0 +1,13 @@
+@tailwind base;
+
+.articleBody h2{
+    @apply text-2xl;
+}
+
+@tailwind components;
+
+.btn-blue {
+    @apply px-4 py-2 font-bold text-white bg-blue-500 rounded;
+}
+
+@tailwind utilities;
